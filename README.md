@@ -1,3 +1,3 @@
 # C_CODE
 
-Assignments for *Grundlagen der C-Programmierung* will be transcript here:)
+Assignments for *Grundlagen der C-Programmierung WS23/24* will be transcript here:)
