@@ -29,7 +29,7 @@ int main() {
     
 
     return 0;
-}
+}*/
 
 // Zahlen in Oktal– und Hexadezimalsystem ausgeben
 /*#include <stdio.h>
