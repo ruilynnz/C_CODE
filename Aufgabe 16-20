@@ -1,0 +1,56 @@
+// Aufgabe 16-20
+
+//Ampelphasen berechnen
+/*#include <stdio.h>
+
+int main() {
+    int zeiteinheit;
+
+    scanf("%d", &zeit);
+    int aktuellePhase = zeiteinheit % 4;
+
+    switch (aktuellePhase) {
+    case 0:
+        printf("ROT\n");
+        break;
+    case 1:
+        printf("ROT/GELB\n");
+        break;
+    case 2:
+        printf("GRÜN\n");
+        break;
+    case 3:
+        printf("GELB\n");
+        break;
+    default:
+        printf("Ungültige Eingabe\n");
+        break;
+    }
+}*/
+
+// iterierte Quersumme
+/*#include <stdio.h>
+
+int main() {
+    int num;
+
+    scanf("%d", &num);
+
+    int n = 0;
+    int summe = 0;
+    while (num > 9)
+    {
+        summe = 0;
+        while (num != 0)
+        {
+            n = num % 10;
+            num /= 10;
+            summe += n;
+        }
+        num = summe;
+    }
+
+    printf("%d", num);
+
+    return 0;
+}*/
