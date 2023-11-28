@@ -71,4 +71,64 @@ int main()
 }*/
 
 //Quadratzahl Funktion
-/**/
+/*#include <stdio.h>
+
+int quadrat(int n) {
+    return n * n;
+}*/
+
+//Jahre der Sommer- und Winterspiele bestimmen
+/*#include <stdio.h>
+int main()
+{
+    int jahr = 0;
+
+    scanf("%d", &jahr);
+
+    int olympic  = jahr % 4;
+
+    switch (olympic)
+    {
+        case 0:
+            printf("Sommerspiele");
+            break;
+        case 2:
+            printf("Winterspiele");
+            break;
+        default:
+            printf("keine Spiele");
+            break;
+    }
+}*/
+
+//schaltjahr
+/*#include <stdio.h>
+
+int schaltjahr(int jahr);
+
+int main() {
+    int jahr;
+
+    printf("Geben Sie eine Jahreszahl ein: ");
+    scanf("%d", &jahr);
+
+    if (schaltjahr(jahr)) {
+        printf("%d ist ein Schaltjahr.\n", jahr);
+    }
+    else {
+        printf("%d ist kein Schaltjahr.\n", jahr);
+    }
+
+    return 0;
+}
+
+int schaltjahr(int jahr) {
+    if ((jahr % 4 == 0 && jahr % 100 != 0) || (jahr % 400 == 0)) {
+        return 1; 
+    }
+    else {
+        return 0; 
+    }
+}*/
+
+
