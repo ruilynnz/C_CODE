@@ -54,3 +54,68 @@ int main() {
 
     return 0;
 }*/
+
+//alternierende Quersumme berechnen
+/*#include <stdio.h>
+#include <stdbool.h>
+
+int main() 
+{
+    int num;
+
+    scanf("%d", &num);
+
+    int n = 0;
+    int summe = 0;
+    bool addieren = true;
+    while (num != 0)
+    {
+        n = num % 10;
+        num /= 10;
+        if (addieren)
+        {
+            summe += n;
+
+        }else
+        {
+            summe -= n;
+        }
+        addieren = !addieren;
+    }
+    printf("%d", summe);
+
+    return 0;
+}*/
+
+//Binärzahlen
+/*
+
+//1, 2, 3, viele; viele-1, viele-2, viele-3, viele viele; viele-viele-1...
+/*#include <stdio.h>
+int main(){
+    //printf("Bitte geben Sie eine Zahl ein: \n");
+    int zahl=0,t=0,mod=0;
+    scanf("%d",&zahl);
+    while(zahl>0){
+        mod=zahl%4;
+        zahl-=4;
+        if(zahl>=0)
+            t++;
+    }
+    int flag=0;
+    for(int i=0;i<t;i++){
+        if(i<t-1)
+            printf("viele-");
+        else if(mod!=0){
+            printf("viele-");
+            printf("%d",mod);
+        }else
+            printf("viele");
+        flag=1;
+    }
+    if(flag==0){
+        printf("%d",mod);
+    }
+    return 0;
+}*/
+
